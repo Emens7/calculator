@@ -7,52 +7,52 @@
     <link rel="stylesheet" href="./css/css.css">
 </head>
 <body>
-    <div class="container">
+    <div class="calculator">
 
-        <form name=form>
-
-            <div class="display">
-                <input type="text" placeholder="0" name="displayResult" />
-            </div>    
+            <div class="calculator__display">
+                <input class="calculator__input" type="text" placeholder="0" name="displayResult" />
+            </div>   
+            
+            <div class="calculator__keys">
 
                     <div class="operations">
-                        <button class="addition">+</button>
-                        <button class="subtraction">-</button>
-                        <button class="multiplication">*</button>
-                        <button class="division">/</button>
+                        <button class="input-btn">+</button>
+                        <button class="input-btn">-</button>
+                        <button class="input-btn">*</button>
+                        <button class="input-btn">/</button>
                     </div>
 
                     <div class="numbers__up">
-                        <button class="seven">7</button>
-                        <button class="eight">8</button>
-                        <button class="nine">9</button>
+                        <button class="input-btn">7</button>
+                        <button class="input-btn">8</button>
+                        <button class="input-btn">9</button>
 
-                        <button class="equal">=</button>
+                        <button class="key--equal">=</button>
 
                     <div class="numbers__coll2">
-                        <button class="four">4</button>
-                        <button class="five">5</button>
-                        <button class="six">6</button>
+                        <button class="input-btn">4</button>
+                        <button class="input-btn">5</button>
+                        <button class="input-btn">6</button>
                     </div>
 
                     <div class="numbers__coll3">
-                        <button class="one">1</button>
-                        <button class="two">2</button>
-                        <button class="three">3</button>
+                        <button class="input-btn">1</button>
+                        <button class="input-btn">2</button>
+                        <button class="input-btn">3</button>
                     </div>        
 
                     <div class="numbers__down">
-                        <button class="null">0</button>
-                        <button class="dot">.</button>
+                        <button class="input-btn">0</button>
+                        <button class="input-btn">.</button>
                         <button class="delete">C</button>
                     </div> 
 
                 </div>
 
-        </form>
+            </div>
 
     </div>
     
-    <script src="./js/js.js"></script>
+    <script src="./js/calculator.js"></script>
 </body>
 </html>
