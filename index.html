@@ -7,49 +7,45 @@
     <link rel="stylesheet" href="./css/css.css">
 </head>
 <body>
-    <div class="calculator">
+    <div class="container">
 
-            <div class="calculator__display">
-                <input class="calculator__input" type="text" placeholder="0" name="displayResult" />
-            </div>   
+        <div class="calculator">
+
+            <input class="calculator__input" type="text" placeholder="0" name="displayResult">
             
-            <div class="calculator__keys">
+            <div class="keyboard">
+                <div class="col">
+                    <button class="input-btn">+</button>
+                    <button class="input-btn">7</button>
+                    <button class="input-btn">4</button>
+                    <button class="input-btn">1</button>
+                    <button class="input-btn">0</button>
+                </div>
 
-                    <div class="operations">
-                        <button class="input-btn">+</button>
-                        <button class="input-btn">-</button>
-                        <button class="input-btn">*</button>
-                        <button class="input-btn">/</button>
-                    </div>
+                <div class="col">
+                    <button class="input-btn">-</button>
+                    <button class="input-btn">8</button>
+                    <button class="input-btn">5</button>
+                    <button class="input-btn">2</button>
+                    <button class="input-btn">.</button>
+                </div>
 
-                    <div class="numbers__up">
-                        <button class="input-btn">7</button>
-                        <button class="input-btn">8</button>
-                        <button class="input-btn">9</button>
+                <div class="col">
+                    <button class="input-btn">*</button>
+                    <button class="input-btn">9</button>
+                    <button class="input-btn">6</button>
+                    <button class="input-btn">3</button>
+                    <button class="delete">C</button>
+                </div>
 
-                        <button class="key--equal">=</button>
-
-                    <div class="numbers__coll2">
-                        <button class="input-btn">4</button>
-                        <button class="input-btn">5</button>
-                        <button class="input-btn">6</button>
-                    </div>
-
-                    <div class="numbers__coll3">
-                        <button class="input-btn">1</button>
-                        <button class="input-btn">2</button>
-                        <button class="input-btn">3</button>
-                    </div>        
-
-                    <div class="numbers__down">
-                        <button class="input-btn">0</button>
-                        <button class="input-btn">.</button>
-                        <button class="delete">C</button>
-                    </div> 
-
+                <div class="col">
+                    <button class="input-btn">/</button>
+                    <button class="key--equal">=</button>
                 </div>
 
             </div>
+
+        </div>
 
     </div>
     

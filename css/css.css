@@ -1,4 +1,50 @@
+* {
+    box-sizing: border-box;
+}
 
 .container {
-    
+    display: flex;
+    justify-content: space-around;
 }
+
+.calculator__input {
+    width: 100%;
+    padding: 0.625rem 1.25rem;
+    margin: 0.25rem 0;
+    font-size: 1.1rem;
+}
+
+.keyboard {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.key--equal {
+    flex: 1 1;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 0.94rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.25rem 0.125rem;
+    background-color: gray;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.col button:first-child {
+    background-color: orange;
+}
+
+.key--equal {
+    background-color: dodgerblue;
+}
+
+

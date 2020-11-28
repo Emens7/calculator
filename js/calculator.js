@@ -45,7 +45,7 @@ const equalSign = () => {
     const operators = input.value.match(regex);
     console.log(operators);
 
-    if (numbers.length-1 !== operators.length ) {
+    if (numbers.length - 1 !== operators.length ) {
         input.value = "Hibás bemenet!"; 
         return;
     }
